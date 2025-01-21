@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slatt Image Genearation</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <form id="imageForm">
+            <label for="textprompt">Enter Text Prompt here:</label>
+            <textarea id="textprompt" placeholder="Type your text prompt..."></textarea>
+            <button type="submit" id="createImage">Create Image</button>
+        </form>
+    </div>
+
+    <div class="output">
+        <img src="" id="image"  alt="">
+        <button id="downloadImage">Download Image</button>
+    </div>
 </body>
+
 </html>
