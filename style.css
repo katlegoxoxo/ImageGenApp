@@ -1,11 +1,9 @@
-/* General body styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f4f8;
     margin: 0;
     padding: 0;
 }
-
 
 .container {
     max-width: 600px;
@@ -14,89 +12,4 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Header styles */
-h1 {
-    text-align: center;
-    font-size: 24px;
-  
-    color: #333;
-}
-
-/* Form styling */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-/* Label styling */
-label {
-    font-size: 16px;
-    color: #333;
-}
-
-/* Textarea styling */
-textarea {
-    font-size: 16px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    resize: vertical;
-    width: 100%;
-    min-height: 100px;
-}
-
-/* Button styling */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-/* Output section styling */
-.output {
-    text-align: center;
-    margin-top: 30px;
-}
-
-/* Image styling */
-#image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Download button styling */
-#downloadImage {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    transition: background-color 0.3s ease;
-}
-
-#downloadImage:hover {
-    background-color: #0056b3;
 }
